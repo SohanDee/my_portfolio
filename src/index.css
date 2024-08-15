@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'bavista';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Bavista_Soulare.otf) format('woff2');
+  }
+}
+
+body{
+  background-color: rgb(240,240,240);
+}

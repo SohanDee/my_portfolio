@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <nav className="fixed bg-white w-full shadow-md">
+    <nav className="fixed bg-white w-full shadow-md z-50">
       <ul className="flex flex-wrap justify-end gap-7 p-5 max-w-7xl m-auto font-raleway">
         <Link to="/">
           <li className="uppercase text-gray-400 text-sm sm:text-lg hover:text-black cursor-pointer">
